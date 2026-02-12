@@ -1,0 +1,65 @@
+@charset "UTF-8";
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #1abc9c;
+}
+
+/* HERO */
+.hero {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.buttons .btn {
+    padding: 12px 22px;
+    margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.primary {
+    background: #1abc9c;
+    color: white;
+}
+
+.secondary {
+    background: #34495e;
+    color: white;
+}
+
+.primary:hover {
+    background: #16a085;
+}
+
+.secondary:hover {
+    background: #2c3e50;
+}

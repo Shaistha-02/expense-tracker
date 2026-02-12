@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.dashboard-container {
+    padding: 30px;
+}
+
+.welcome-text {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card p {
+    font-size: 15px;
+    color: #666;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #17a2b8;
+}
